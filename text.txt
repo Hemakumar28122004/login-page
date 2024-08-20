@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login Page</title>
+            <style>
+                body{
+background-color:bisque;
+                }
+            div.hem{
+                display: flex;
+margin: 200px;
+text-align: center;
+justify-content: center;
+ }   
+ #hemu {
+    background-color:white;
+width: 300px;
+border: 15px solid black;
+padding: 50px;
+margin: 20px;
+ }             
+            </style>
+    </head>
+    <body>
+<div class="hem">
+    <div id="hemu">
+<form><h1 style="color: red;">Login</h1>
+<p><input type="text" placeholder="Username"></p>
+<p><input type="password" placeholder="Password"></p>
+<table>
+   
+    <p>    <tr><td><input type="submit"></td><td><a href="https://www.flipkart.com/?affid=affsiteplug&affExtParam1=3fe50d5b85b1834745d421a7faa7a986&affExtParam2=60827">forgot password</a></td></tr>
+    </p>
+</table>
+</form>
+</div>
+</div>
+  </body>
+  </html>
